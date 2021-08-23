@@ -1,0 +1,15 @@
+.caticature-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.caticature{
+    width: -webkit-fill-available;
+    max-width: 67vh
+}
+
+body{
+    background-color: rgb(247, 246, 243);
+}
