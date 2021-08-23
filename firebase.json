@@ -8,6 +8,10 @@
     ],
     "rewrites": [
       {
+        "source": "/Invitation/**",
+        "dynamicLinks": true
+      },
+      {
         "source": "/invitation/**",
         "dynamicLinks": true
       },
