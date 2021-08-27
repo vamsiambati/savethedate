@@ -9,6 +9,10 @@
     ],
     "rewrites": [
       {
+        "source": "invite.vamsisyamu.com/**",
+        "dynamicLinks": true
+      },
+      {
         "source": "/Invitation/**",
         "dynamicLinks": true
       },
