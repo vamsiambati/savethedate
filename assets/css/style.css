@@ -32,6 +32,9 @@ body::before {
   }
 } */
 
+.hideAll{
+  display : none !important;
+}
 .caticature-container{
   display: flex;
   height: 100vh;

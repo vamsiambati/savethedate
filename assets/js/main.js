@@ -15,6 +15,12 @@
       $(this).html(event.strftime(template));
     });
   }
+
+  var newDate = new Date();
+
+  if(newDate > cndDate) {
+$('.countdown').addClass('hideAll')
+  }
   
 
   // Back to top button
